@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+
+
+.com_image_slide_container{
+    @apply overflow-hidden w-[60%] h-200 relative
+}
+.com_image_slide{
+    @apply absolute bg-cover;
+    right: -110%;
+    background-position: 50% 50%;
+    transition: all linear 0.5s ;
+
+    
+}
+.com_image_slide:nth-child(1)
+{
+    left: -110%;
+}
+.com_image_slide:nth-child(2)
+{
+    right:200%
+}
+
+
+
+.com_image_slide:nth-child(3)
+{
+    right: 0;
+}

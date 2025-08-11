@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+
+.char_container{
+    @apply relative border-[aqua] border-[2px] w-[100vw] h-[100vh]   md:w-[60%]  md:h-150 overflow-hidden rounded-2xl ;
+    box-shadow: 0 0 30px 1px aqua
+}
+
+
+/* card animation */
+
+
+.char_item{
+    @apply absolute   left-[60%] top-[58%] md:top-[83%] ;
+     width: 120px;
+    height: 190px;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: 100;
+    transition: 1s;
+    transform: translateY(-70%);
+    border-radius: 10px;
+    /* box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 0 1px 1px rgb(7, 243, 225) ;
+    opacity: 1;
+
+}
+
+
+ .char_item:nth-child(1),
+ .char_item:nth-child(2)
+ {
+    @apply md:w-[35%] md:h-[86%] w-[60%]  h-[35%] left-[20%] md:left-[70px]   top-[5%]  md:top-[45px] ;
+
+    
+    transform: translate(0, 0);
+    border-radius: 10px;
+    
+    box-shadow: 0 0 12px 2px rgb(7, 243, 255);
+
+}
+.char_item:nth-child(3) {
+    left: 45%;
+
+}
+.char_item:nth-child(4) {
+    left:calc(45% + 130px)
+}
+.char_item:nth-child(5) {
+    left:calc(45% + 260px)
+}
+.char_item:nth-child(6) {
+    left:calc(45% + 390px)
+}
+.char_item:nth-child(7) {
+    left:calc(45% + 520px)
+}
+.char_item:nth-child(n+8) {
+    left:calc(45% + 650px)
+}
+
+
+
+
+
+/* .......................Text box animation ...........................................*/
+
+
+
+
+
+.char_text_box >span{
+    opacity: 0;
+}
+
+.char_text_box >h1{
+    @apply  text-2xl md:text-5xl font-extrabold  md:mx-10 mt-10 bg-clip-text bg-linear-[25deg,blue,aqua] text-transparent  w-fit;
+
+    text-shadow: 2px black;
+    
+  
+
+
+}
+
+
+.char_text_box > h5 {
+    @apply  font-extrabold text-[17px]   md:mx-10 bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-yellow-400 w-80 ;
+}
+
+.char_text_box > p {
+    @apply  font-medium leading-relaxed  md:mx-10 mt-5 bg-[aqua] bg-clip-text text-transparent
+}
+
+
+
+
+
+
+
+.char_text_box{
+    @apply absolute   md:left-[20%] top-[83%]  md:h-[190px]  md:w-[120px];
+   
+ 
+    background-position: 50% 50%;
+    z-index: 100;  
+    transition: 1.2s ;
+    transform: translate(-90%,-90%);
+    border-radius: 10px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    overflow: hidden;
+    
+}
+
+    
+.char_text_box:nth-child(1){
+    top: 40%;
+    opacity: 0;
+    z-index: -200;
+    right: 0;
+}
+    
+.char_text_box:nth-child(2)
+{
+    
+ 
+      @apply  md:absolute flex flex-col items-center md:items-start mx-5 md:mx-0 w-[90vw] md:w-[50%] md:h-[50%] md:left-[45%] top-[60%]  md:top-[8%] border rounded-2xl ;
+      /* box-shadow: 0 0 12px 0 aqua; */
+   transform: translateY(0);
+   z-index: 70;
+   transition: 1s ease-in-out;
+   opacity: 1;
+}
+
+
+
+    
