@@ -29,101 +29,101 @@ import img28 from './assets/gallery/img18.jpg'
 import img29 from './assets/gallery/img29.jpg'
 import img30 from './assets/gallery/img30.jpg'
 import img31 from './assets/gallery/img31.jpg'
-export const gallery_Photos =[ 
-    {
-        img:img1
-    },
-     {
-        img:img2
-    },
-     {
-        img:img3
-    },
-     {
-        img:img4
-    },
+export const gallery_Photos = [
+   {
+      img: img1
+   },
+   {
+      img: img2
+   },
+   {
+      img: img3
+   },
+   {
+      img: img4
+   },
 
-     {
-        img:img5
-    },
-     {
-        img:img6
-    },
-     {
-        img:img7
-    },
-     {
-        img:img8
-    },
-     {
-        img:img9
-    },
-     {
-        img:img10
-    },
-     {
-        img:img11
-    },
-     {
-        img:img12
-    },
-     {
-        img:img13
-    },
-     {
-        img:img14
-    },
-     {
-        img:img15
-    },
-     {
-        img:img16
-    },
-     {
-        img:img17
-    },
-     {
-        img:img18
-    },
-     {
-        img:img19
-    },
-     {
-        img:img20
-    },
-     {
-        img:img21
-    },
-     {
-        img:img22
-    },
-     {
-        img:img23
-    },
-     {
-        img:img24
-    },
-     {
-        img:img25
-    },
-     {
-        img:img26
-    },
-     {
-        img:img27
-    },
-     {
-        img:img28
-    },
-     {
-        img:img29
-    },
-     {
-        img:img30
-    },
-     {
-        img:img31
-    },
+   {
+      img: img5
+   },
+   {
+      img: img6
+   },
+   {
+      img: img7
+   },
+   {
+      img: img8
+   },
+   {
+      img: img9
+   },
+   {
+      img: img10
+   },
+   {
+      img: img11
+   },
+   {
+      img: img12
+   },
+   {
+      img: img13
+   },
+   {
+      img: img14
+   },
+   {
+      img: img15
+   },
+   {
+      img: img16
+   },
+   {
+      img: img17
+   },
+   {
+      img: img18
+   },
+   {
+      img: img19
+   },
+   {
+      img: img20
+   },
+   {
+      img: img21
+   },
+   {
+      img: img22
+   },
+   {
+      img: img23
+   },
+   {
+      img: img24
+   },
+   {
+      img: img25
+   },
+   {
+      img: img26
+   },
+   {
+      img: img27
+   },
+   {
+      img: img28
+   },
+   {
+      img: img29
+   },
+   {
+      img: img30
+   },
+   {
+      img: img31
+   },
 ]
 
 
@@ -137,257 +137,257 @@ import char3 from './assets/char/char3.jpg'
 
 
 
-export const char_Details =[
-    {
-        name:'Siva Guru',
-        position:'Sound Design & Mixing',
-        image:char1,
-        experience :'Aarav has worked on over 50 short films and commercials, specializing in immersive surround sound design and cinematic audio mixing using Pro Tools and Logic Pro.'
+export const char_Details = [
+   {
+      name: 'Siva Guru',
+      position: 'Sound Design & Mixing',
+      image: char1,
+      experience: 'Aarav has worked on over 50 short films and commercials, specializing in immersive surround sound design and cinematic audio mixing using Pro Tools and Logic Pro.'
 
 
-     },
-     {
-        name:'Diya Sharma',
-        position:'3D Animation & VFX',
-        image:char2,
-        experience :'Diya is a Blender and Maya expert, known for her fluid character animations and particle simulations in indie film projects and animated ads'
+   },
+   {
+      name: 'Diya Sharma',
+      position: '3D Animation & VFX',
+      image: char2,
+      experience: 'Diya is a Blender and Maya expert, known for her fluid character animations and particle simulations in indie film projects and animated ads'
 
-     },
-     {
-        name:'Rohan Kapoor	',
-        position:'Studio Lighting & Setup	',
-        image:char3,
-        experience :'Rohan is a studio tech veteran who has configured lighting setups for talk shows, music videos, and commercial shoots, optimizing every frame for visual impact.'
-
-
-     },
-     {
-        name:' Meera Joshi',
-        position:'Voice Recording & Dubbing	',
-        image:char1,
-        experience :'Siddharth blends cinematic cuts with seamless transitions, working with Premiere Pro and After Effects for film trailers, music videos, and branded content.'
-     },
-     {
-        name:'Siddharth Rao	',
-        position:'Video Editing & Compositing	',
-        image:char2,
-        experience :'Diya is a Blender and Maya expert, known for her fluid character animations and particle simulations in indie film projects and animated ads'
-
-     },
-     {
-        name:'Diya Sharma',
-        position:'3D Animation & VFX',
-        image:char3,
-        experience :'Diya is a Blender and Maya expert, known for her fluid character animations and particle simulations in indie film projects and animated ads'
-
-     },
-     {
-        name:'Siva Guru',
-        position:'Sound Design & Mixing',
-        image:char1,
-        experience :'Aarav has worked on over 50 short films and commercials, specializing in immersive surround sound design and cinematic audio mixing using Pro Tools and Logic Pro.'
+   },
+   {
+      name: 'Rohan Kapoor	',
+      position: 'Studio Lighting & Setup	',
+      image: char3,
+      experience: 'Rohan is a studio tech veteran who has configured lighting setups for talk shows, music videos, and commercial shoots, optimizing every frame for visual impact.'
 
 
-     },
-     {
-        name:'Diya Sharma',
-        position:'3D Animation & VFX',
-        image:char2,
-        experience :'Diya is a Blender and Maya expert, known for her fluid character animations and particle simulations in indie film projects and animated ads'
+   },
+   {
+      name: ' Meera Joshi',
+      position: 'Voice Recording & Dubbing	',
+      image: char1,
+      experience: 'Siddharth blends cinematic cuts with seamless transitions, working with Premiere Pro and After Effects for film trailers, music videos, and branded content.'
+   },
+   {
+      name: 'Siddharth Rao	',
+      position: 'Video Editing & Compositing	',
+      image: char2,
+      experience: 'Diya is a Blender and Maya expert, known for her fluid character animations and particle simulations in indie film projects and animated ads'
 
-     },
-     {
-        name:'Rohan Kapoor	',
-        position:'Studio Lighting & Setup	',
-        image:char3,
-        experience :'Rohan is a studio tech veteran who has configured lighting setups for talk shows, music videos, and commercial shoots, optimizing every frame for visual impact.'
+   },
+   {
+      name: 'Diya Sharma',
+      position: '3D Animation & VFX',
+      image: char3,
+      experience: 'Diya is a Blender and Maya expert, known for her fluid character animations and particle simulations in indie film projects and animated ads'
+
+   },
+   {
+      name: 'Siva Guru',
+      position: 'Sound Design & Mixing',
+      image: char1,
+      experience: 'Aarav has worked on over 50 short films and commercials, specializing in immersive surround sound design and cinematic audio mixing using Pro Tools and Logic Pro.'
 
 
-     }
+   },
+   {
+      name: 'Diya Sharma',
+      position: '3D Animation & VFX',
+      image: char2,
+      experience: 'Diya is a Blender and Maya expert, known for her fluid character animations and particle simulations in indie film projects and animated ads'
 
-     
-    
+   },
+   {
+      name: 'Rohan Kapoor	',
+      position: 'Studio Lighting & Setup	',
+      image: char3,
+      experience: 'Rohan is a studio tech veteran who has configured lighting setups for talk shows, music videos, and commercial shoots, optimizing every frame for visual impact.'
+
+
+   }
+
+
+
 
 
 ]
 
 ///films page datas
 
- export const videos_List =[
-    {
-       clientName : '',
-       video : "https://www.youtube.com/embed/RQorrnJIc2Q?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-       image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'TAMIL NADU',
-       description:'Step into a vibrant love story where jasmine garlands, retro filters, and heartful laughter paint the perfect 90s canvas. From quirky street-side shots to candid rooftop moments, this couple’s throwback wedding video is all things charming and unforgettable. Like, share, and subscribe to soak in the nostalgia!'
+export const videos_List = [
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/RQorrnJIc2Q?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'TAMIL NADU',
+      description: 'Step into a vibrant love story where jasmine garlands, retro filters, and heartful laughter paint the perfect 90s canvas. From quirky street-side shots to candid rooftop moments, this couple’s throwback wedding video is all things charming and unforgettable. Like, share, and subscribe to soak in the nostalgia!'
 
-    },
-    {
-       clientName : '',
-       video : "https://www.youtube.com/embed/MnQJuswofmw?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-       image:img5,
-       title:'WESTERN-INSPIRED WEDDING',
-       subtitle:'DESTINATION THEME',
-       description:'This cinematic treat blends Kerala’s temple traditions with vintage 90s flair! Watch this adorable duo relive the past through filter-soaked reels, slow zooms, and cheeky dance moves under swaying palms. Hit that like button for pure nostalgic vibes'
-    },
-    {
-       clientName : 'SOUTH INDIAN WEDDING',
-       video : "https://www.youtube.com/embed/ln6wLtdPX9E?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-       image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'KARNATAKA',
-       description:'A love story wrapped in sarees, scooters, and sepia tones! This couple’s wedding video is a joyful rewind to the 90s—complete with cassette tape transitions and an unexpected scene at the local bakery. Don’t miss the smiles, drama, and throwback feels!'
-    },
-    {
-       clientName : '',
-       video : "https://www.youtube.com/embed/c1ra8gLPKhs?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0B",
-       image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'ANDHRA PRADESH',
-       description:'From filter coffee cheers to old-school film overlays, this Andhra couple captures the essence of a simpler, sweeter time. Their 90s-style wedding video is filled with laughter, real moments, and a surprise appearance by a toy train! Watch now and relive your childhood!'
-    },
+   },
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/MnQJuswofmw?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'WESTERN-INSPIRED WEDDING',
+      subtitle: 'DESTINATION THEME',
+      description: 'This cinematic treat blends Kerala’s temple traditions with vintage 90s flair! Watch this adorable duo relive the past through filter-soaked reels, slow zooms, and cheeky dance moves under swaying palms. Hit that like button for pure nostalgic vibes'
+   },
+   {
+      clientName: 'SOUTH INDIAN WEDDING',
+      video: "https://www.youtube.com/embed/ln6wLtdPX9E?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'KARNATAKA',
+      description: 'A love story wrapped in sarees, scooters, and sepia tones! This couple’s wedding video is a joyful rewind to the 90s—complete with cassette tape transitions and an unexpected scene at the local bakery. Don’t miss the smiles, drama, and throwback feels!'
+   },
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/c1ra8gLPKhs?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0B",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'ANDHRA PRADESH',
+      description: 'From filter coffee cheers to old-school film overlays, this Andhra couple captures the essence of a simpler, sweeter time. Their 90s-style wedding video is filled with laughter, real moments, and a surprise appearance by a toy train! Watch now and relive your childhood!'
+   },
 
-    {
-       clientName : '',
-       video : "https://www.youtube.com/embed/dw3oN6gkfio?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-       image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'TELANGANA',
-       description:'Who says weddings can’t be playful? This colorful celebration includes all the vintage goodness—zoom-ins, funny glances, and even a scene shot outside a video rental shop! Watch this throwback-themed love story and ride the wave of pure nostalgia.'
-    },
-    {
-       clientName : '',
-       video :  "https://www.youtube.com/embed/Lg0kuAKpG2U?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-       image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'TAMIL NADU',
-       description:'This couple’s chemistry is electric—and so is their 90s-themed wedding video! With dramatic zooms, candid giggles, and a few hilarious moments inside a local tailoring shop, you’ll smile all the way through. Don’t forget to like and subscribe for more stories that warm your heart!'
-    },
-    {
-       clientName : '',
-       video :  "https://www.youtube.com/embed/eX-4iNKmxvI?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-       image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'KERALA',
-       description:'A charming walk through rubber plantations, coconut trees, and old-school movie cuts! This wedding film gives major 90s Malayalam film vibes. Quirky edits and a sweet dose of nostalgia make this one a must-watch!'
-    },
-    {
-       clientName : '',
-       video :  "https://www.youtube.com/embed/jX4jySkP6FQ?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-       image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'KARNATAKA',
-       description:'A cassette player, paper flowers, and cheeky looks—the perfect ingredients for this retro wedding video! Relive the essence of 90s love stories as this fun-loving couple dances their way into your hearts. Subscribe for more smiles and throwbacks!'
-    },
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/AweoLqfK9hg?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'ANDHRA PRADESH',
-       description:'Set in an old house with tiled roofs and vintage decor, this couple’s 90s-style wedding video is packed with raw emotions and light-hearted pranks. Their bond shines through every moment—especially when they try to pose like classic movie stars!'
-    },
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/wKy95f3nO2w?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'SOUTH INDIAN WEDDING',
-       subtitle:'TAMIL NADU',
-       description:'From VHS tape effects to nostalgic love letters, this couple’s wedding film is a delightful mix of retro aesthetics and real emotions. With an auto ride, a stolen glance, and plenty of giggles, this is the 90s romance you didn’t know you needed!'
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/4WLcV3UA5NA?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'NORTH INDIAN WEDDING',
-       subtitle:'UTTAR PRADESH',
-       description:'A baraat with dhol beats, sehra-swag, and a whole lot of Bollywood drama! This couple takes us back to the 90s with their wedding video—featuring vintage filter transitions, rooftop dances, and even a surprise scooter entry. Don’t miss the filmy magic!'
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/l-z8wnPHexA?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'CHRISTIAN WEDDING',
-       subtitle:'GOA',
-       description:'Get swept away in this church bell romance featuring soft focus, nostalgic vibes, and a touch of Goan charm. From chapel vows to playful beachside giggles, this 90s-style wedding video is the perfect blend of elegance and joy!'
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/-ARVwU58l7A?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'WESTERN-STYLE WEDDING',
-       subtitle:'MODERN THEME',
-       description:'Lace gowns, fairy lights, and a walk down memory lane—literally! This vintage-themed wedding captures a timeless love story through VHS-style transitions, heartfelt vows, and a classic cake-smash moment. Watch, smile, repeat.'
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/iL9BZh2xffU?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'',
-       subtitle:'',
-       description:''
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/REP3rwdjhD0?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'PUNJABI WEDDING',
-       subtitle:'PUNJAB',
-       description:'This wedding is full throttle—colorful, loud, and joyfully retro! With bhangra beats, oversized sunglasses, and hilarious slow-zoom edits, the couple’s 90s-style video is one big fat Punjabi throwback. Press play and groove along!'
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/5r7ccNjRli0?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'BENGALI WEDDING',
-       subtitle:'KOLKATA',
-       description:"Red benarasi, alta-covered feet, and nostalgic Shehnai tunes! This couple's 90s-inspired Bengali wedding film is as poetic as it is playful. Expect sweet side glances, dramatic slow-motion, and a magical moment in front of an old tram."
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/gH9NeE56B78?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'MAHARASHTRIAN WEDDING',
-       subtitle:'MUMBAI',
-       description:'Nathni, mundavalya, and an adorable twist of nostalgia—this wedding video is rooted in tradition but styled with 90s simplicity. Don’t miss the scene outside a local wada pav stall—pure Mumbai magi'
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/F5nYMCWSJXc?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'RAJASTHANI WEDDING',
-       subtitle:'JAIPUR',
-       description:'Watch this royal affair unfold with a 90s filter! Colorful lehengas, vintage jeep baraat, and an impromptu desert dance make this throwback Rajasthani wedding video a must-see blend of elegance and fun.'
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/-T76Wgy-9Og?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'GUJARATI WEDDING',
-       subtitle:'AHMEDABAD',
-       description:'Get ready for garba, giggles, and golden nostalgia! This couple brings back 90s-style edits with some unexpected fun moments, including a scene at a soda shop. Vibrant, emotional, and full of joy!'
-    },
-    
-    {
-      clientName:'',
-      video:"https://www.youtube.com/embed/UDR5GlSnXpc?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
-      image:img5,
-       title:'CHRISTIAN WEDDING',
-       subtitle:'KERALA',
-       description:'A sweet, serene celebration filled with white flowers, retro filters, and heartwarming smiles. Their 90s-style wedding video captures every precious moment, from choir songs to a surprise umbrella dance in the rain.'
-    },
-    
-    
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/dw3oN6gkfio?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'TELANGANA',
+      description: 'Who says weddings can’t be playful? This colorful celebration includes all the vintage goodness—zoom-ins, funny glances, and even a scene shot outside a video rental shop! Watch this throwback-themed love story and ride the wave of pure nostalgia.'
+   },
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/Lg0kuAKpG2U?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'TAMIL NADU',
+      description: 'This couple’s chemistry is electric—and so is their 90s-themed wedding video! With dramatic zooms, candid giggles, and a few hilarious moments inside a local tailoring shop, you’ll smile all the way through. Don’t forget to like and subscribe for more stories that warm your heart!'
+   },
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/eX-4iNKmxvI?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'KERALA',
+      description: 'A charming walk through rubber plantations, coconut trees, and old-school movie cuts! This wedding film gives major 90s Malayalam film vibes. Quirky edits and a sweet dose of nostalgia make this one a must-watch!'
+   },
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/jX4jySkP6FQ?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'KARNATAKA',
+      description: 'A cassette player, paper flowers, and cheeky looks—the perfect ingredients for this retro wedding video! Relive the essence of 90s love stories as this fun-loving couple dances their way into your hearts. Subscribe for more smiles and throwbacks!'
+   },
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/AweoLqfK9hg?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'ANDHRA PRADESH',
+      description: 'Set in an old house with tiled roofs and vintage decor, this couple’s 90s-style wedding video is packed with raw emotions and light-hearted pranks. Their bond shines through every moment—especially when they try to pose like classic movie stars!'
+   },
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/wKy95f3nO2w?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'SOUTH INDIAN WEDDING',
+      subtitle: 'TAMIL NADU',
+      description: 'From VHS tape effects to nostalgic love letters, this couple’s wedding film is a delightful mix of retro aesthetics and real emotions. With an auto ride, a stolen glance, and plenty of giggles, this is the 90s romance you didn’t know you needed!'
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/4WLcV3UA5NA?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'NORTH INDIAN WEDDING',
+      subtitle: 'UTTAR PRADESH',
+      description: 'A baraat with dhol beats, sehra-swag, and a whole lot of Bollywood drama! This couple takes us back to the 90s with their wedding video—featuring vintage filter transitions, rooftop dances, and even a surprise scooter entry. Don’t miss the filmy magic!'
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/l-z8wnPHexA?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'CHRISTIAN WEDDING',
+      subtitle: 'GOA',
+      description: 'Get swept away in this church bell romance featuring soft focus, nostalgic vibes, and a touch of Goan charm. From chapel vows to playful beachside giggles, this 90s-style wedding video is the perfect blend of elegance and joy!'
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/-ARVwU58l7A?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'WESTERN-STYLE WEDDING',
+      subtitle: 'MODERN THEME',
+      description: 'Lace gowns, fairy lights, and a walk down memory lane—literally! This vintage-themed wedding captures a timeless love story through VHS-style transitions, heartfelt vows, and a classic cake-smash moment. Watch, smile, repeat.'
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/iL9BZh2xffU?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: '',
+      subtitle: '',
+      description: ''
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/REP3rwdjhD0?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'PUNJABI WEDDING',
+      subtitle: 'PUNJAB',
+      description: 'This wedding is full throttle—colorful, loud, and joyfully retro! With bhangra beats, oversized sunglasses, and hilarious slow-zoom edits, the couple’s 90s-style video is one big fat Punjabi throwback. Press play and groove along!'
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/5r7ccNjRli0?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'BENGALI WEDDING',
+      subtitle: 'KOLKATA',
+      description: "Red benarasi, alta-covered feet, and nostalgic Shehnai tunes! This couple's 90s-inspired Bengali wedding film is as poetic as it is playful. Expect sweet side glances, dramatic slow-motion, and a magical moment in front of an old tram."
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/gH9NeE56B78?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'MAHARASHTRIAN WEDDING',
+      subtitle: 'MUMBAI',
+      description: 'Nathni, mundavalya, and an adorable twist of nostalgia—this wedding video is rooted in tradition but styled with 90s simplicity. Don’t miss the scene outside a local wada pav stall—pure Mumbai magi'
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/F5nYMCWSJXc?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'RAJASTHANI WEDDING',
+      subtitle: 'JAIPUR',
+      description: 'Watch this royal affair unfold with a 90s filter! Colorful lehengas, vintage jeep baraat, and an impromptu desert dance make this throwback Rajasthani wedding video a must-see blend of elegance and fun.'
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/-T76Wgy-9Og?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'GUJARATI WEDDING',
+      subtitle: 'AHMEDABAD',
+      description: 'Get ready for garba, giggles, and golden nostalgia! This couple brings back 90s-style edits with some unexpected fun moments, including a scene at a soda shop. Vibrant, emotional, and full of joy!'
+   },
+
+   {
+      clientName: '',
+      video: "https://www.youtube.com/embed/UDR5GlSnXpc?enablejsapi=1&mute=0&controls=1&modestbranding=1&rel=0",
+      image: img5,
+      title: 'CHRISTIAN WEDDING',
+      subtitle: 'KERALA',
+      description: 'A sweet, serene celebration filled with white flowers, retro filters, and heartwarming smiles. Their 90s-style wedding video captures every precious moment, from choir songs to a surprise umbrella dance in the rain.'
+   },
+
+
 ]
 
 
@@ -450,29 +450,29 @@ import kid54 from './assets/kids/k54.jpg'
 import kid55 from './assets/kids/k55.jpg'
 import kid56 from './assets/kids/k56.jpg'
 
-export const kidsImage =[kid1, kid2, kid3, kid4, kid5, kid6, kid7, kid8, kid9, kid10,
- kid11, kid12, kid13, kid14, kid15, kid16, kid17, kid18, kid19, kid20,
- kid21, kid22, kid23, kid24, kid25, kid26, kid27, kid28, kid56, kid30,
- kid31, kid32, kid33, kid34, kid35, kid36, kid37, kid38, kid40,
- kid41, kid42, kid43, kid44, kid45, kid46, kid47, kid48, kid49, kid50,
- kid51, kid52, kid53, kid54, kid55, kid28]
+export const kidsImage = [kid1, kid2, kid3, kid4, kid5, kid6, kid7, kid8, kid9, kid10,
+   kid11, kid12, kid13, kid14, kid15, kid16, kid17, kid18, kid19, kid20,
+   kid21, kid22, kid23, kid24, kid25, kid26, kid27, kid28, kid56, kid30,
+   kid31, kid32, kid33, kid34, kid35, kid36, kid37, kid38, kid40,
+   kid41, kid42, kid43, kid44, kid45, kid46, kid47, kid48, kid49, kid50,
+   kid51, kid52, kid53, kid54, kid55, kid28]
 
 
- //....................commercial page....................................
+//....................commercial page....................................
 
 
- import com1 from './assets/commercial/co1.jpg'
- import com2 from './assets/commercial/co2.jpg'
- import com3 from './assets/commercial/co3.jpg'
- import com4 from './assets/commercial/co4.jpg'
- import com5 from './assets/commercial/co5.jpg'
- import com6 from './assets/commercial/co6.png'
- import com7 from './assets/commercial/co7.png'
- import com8 from './assets/commercial/co8.jpg'
- import com9 from './assets/commercial/co9.jpg' 
- import com10 from './assets/commercial/co10.jpg'
- import com11 from './assets/commercial/co11.jpg'
- import com12 from './assets/commercial/co12.jpg'
- import com13 from './assets/commercial/co13.jpg'
+import com1 from './assets/commercial/co1.jpg'
+import com2 from './assets/commercial/co2.jpg'
+import com3 from './assets/commercial/co3.jpg'
+import com4 from './assets/commercial/co4.jpg'
+import com5 from './assets/commercial/co5.jpg'
+import com6 from './assets/commercial/co6.png'
+import com7 from './assets/commercial/co7.png'
+import com8 from './assets/commercial/co8.jpg'
+import com9 from './assets/commercial/co9.jpg'
+import com10 from './assets/commercial/co10.jpg'
+import com11 from './assets/commercial/co11.jpg'
+import com12 from './assets/commercial/co12.jpg'
+import com13 from './assets/commercial/co13.jpg'
 
-export const commercial_image= [com1,com2,com3,com4,com5,com6,com7,com8,com8,com9,com10,com11,com12,com13]
+export const commercial_image = [com1, com2, com3, com4, com5, com6, com7, com8, com8, com9, com10, com11, com12, com13]
