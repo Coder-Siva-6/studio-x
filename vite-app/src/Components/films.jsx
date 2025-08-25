@@ -27,7 +27,7 @@ const films = () => {
   
  
   return (
-    <div className='mt-10 mx-auto'>
+    <div className='mt-10 md:mt-5 mx-auto container overflow-hidden'>
 
      {/* Main video section */}
      <section className='main_video_section'>

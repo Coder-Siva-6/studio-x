@@ -10,25 +10,25 @@ const navBar = () => {
 
 
   return (
-    <div className='  md:mt-5 fixed  w-full md:sticky md:top-0 z-[10000]' >
+    <div className='  md:mt-[0.7%] fixed  w-full md:sticky md:top-0 z-[10000]' >
 
 
-      <header className=' md:mx-30  relative '>
-        <nav className='  md:flex flex-col md:flex-row   md:justify-between  md:items-center bg-black md:mx-2 text-white md:rounded-[15px] md:px-7 shadow-gray-500 shadow-[5px_6px_12px_0px]'>
+      <header className=' md:mx-[3%]  relative '>
+        <nav className='  md:flex flex-col md:flex-row   md:justify-between  md:items-center bg-black md:mx-2 text-white md:rounded-[15px] md:px-[2%] shadow-gray-500 shadow-[5px_6px_12px_0px]'>
           <div className='flex  items-center'>
-            <img src={logo} alt="" className='w-20 md:w-25 bg-clip-content rounded-full' />
+            <img src={logo} alt="" className='w-20 md:w-[17%] bg-clip-content rounded-full' />
             <h1 className='  logo_text '>STUDIO X</h1>
           </div>
 
 
 
           <div className='md:block hidden'>
-            <ul className=' flex  gap-20 md:px-10 nav_list  '>
+            <ul className=' flex  gap-10 xl-20 md:px-10 nav_list  '>
               <li> <Link to={'./'}>HOME</Link></li>
               <li><Link to={'./gallery'}> GALLERY</Link>  </li>
               <li> <Link to={'./films'}>FILMS</Link></li>
               <li> <Link to={"./about"}>ABOUT US</Link></li>
-               <li> <Link to={"./bookus"}>Book Us</Link></li>
+               <li> <Link to={"./bookus"}>BOOK US</Link></li>
         
             </ul>
           </div>
@@ -41,7 +41,7 @@ const navBar = () => {
               <li onClick={() => setToggle(!toggle)} ><Link to={'./gallery'}> GALLERY</Link>  </li>
               <li onClick={() => setToggle(!toggle)} > <Link to={'./films'}>FILMS</Link></li>
               <li onClick={() => setToggle(!toggle)} > <Link to={"./about"}>ABOUT US</Link></li>
-              <li onClick={() => setToggle(!toggle)} ><Link to={"./bookus"}>ABOUT US</Link></li>
+              <li onClick={() => setToggle(!toggle)} ><Link to={"./bookus"}>BOOK US</Link></li>
             </ul>
           </div>
           }

@@ -22,7 +22,7 @@ const gallery = () => {
 
 
   return (
-    <div className=' flex pt-25 bg'  >
+    <div className=' flex pt-5 bg'  >
         <div className='grid grid-col-1 md:grid-cols-4 gap-2 mx-2 md:gap-x-5 md:gap-y-10 md:mx-20 md:my-10 
         '  >
             {

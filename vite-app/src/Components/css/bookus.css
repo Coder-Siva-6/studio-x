@@ -15,7 +15,7 @@
 }
 
 .booking>form{
-    @apply  flex flex-col  text-amber-50 mx-30 px-10 py-8 w-140 max-w-full gap-y-5 mt-15  md:rounded-2xl md:mt-30 backdrop-hue-rotate-10 backdrop-brightness-120 md:backdrop-brightness-200 backdrop-blur-2xl shadow-2xl shadow-gray-800 
+    @apply  flex flex-col 2xl:py-5  text-amber-50 mx-30 px-10 2xl:w-140 md:w-110   max-w-full gap-y-5 mt-15   md:rounded-2xl md:mt-20 backdrop-hue-rotate-10 backdrop-brightness-120 md:backdrop-brightness-200 backdrop-blur-2xl shadow-2xl shadow-gray-800 
 }
 .booking>form>label{
     @apply  flex flex-col 
@@ -25,7 +25,7 @@
 
 }
 .booking>form>label>input{
-    @apply  border-b-[0.5px] outline-0 py-1  
+    @apply  border-b-[0.5px] outline-0   
 }
 .booking>form>button{
 

@@ -5,7 +5,7 @@ import './css/bookus.css'
 
 const bookus = () => {
   return (
-    <div  className='booking items-center md:items-end md:justify-around flex  flex-col bg-no-repeat  bg-cover absolute w-screen h-screen top-0 left-0' style={{backgroundImage:`url(${img})`}} >
+    <div  className=' booking items-center md:items-end md:justify-around flex  flex-col bg-no-repeat  bg-cover absolute w-full h-full top-0 left-0' style={{backgroundImage:`url(${img})`}} >
         <form action="">
             <h1 className='text-center font-bold text-3xl font-slab '>BOOK US</h1>
             <label htmlFor="">

@@ -103,7 +103,7 @@ const slider = () => {
 
 
     return (
-        <div className=' md:mt-7  '>
+        <div className=' md:mt-[1.3%]  mx-auto container '>
 
             <div className='main_Container '>
                 <div className='main_child_container'>

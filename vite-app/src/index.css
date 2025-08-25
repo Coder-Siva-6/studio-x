@@ -16,7 +16,7 @@
 
 /*  Buttons */
 .buttons{
-    @apply bg-blue-700 md:px-6 md:py-4 px-4 py-3 rounded-[3px] text-[14px]  md:text-[16px]  cursor-pointer  ;
+    @apply bg-blue-700 lg:px-6 lg:py-3 px-4 py-3 rounded-[3px] text-[14px]  lg:text-[12px]  cursor-pointer tracking-wider  ;
 
 }
 .buttons:hover{
@@ -31,7 +31,7 @@
 
 /* Paragraph styling */
 .para{
-    @apply text-teal-50 text-[12px] font-inter md:text-[16px]   ;
+    @apply text-teal-50 text-[12px]  font-inter md:text-[14px] 2xl:text-[16px]   ;
 
 
    line-height: 1.5;
@@ -49,11 +49,11 @@
 
 /* .....................................navbar........................................... */
 .logo_text{
-    @apply text-2xl md:text-3xl font-extrabold font-inter bg-clip-text text-transparent bg-linear-[65deg,red,yellow] ;
+    @apply text-2xl 2xl:text-3xl font-extrabold font-inter bg-clip-text text-transparent bg-linear-[65deg,red,yellow] ;
     
 }
 .nav_list>li{
-    @apply  relative font-bold font-inter bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent hover:bg-gradient-to-t hover:from-aqua hover:to-gray-500 transition-all  ease-in-out  
+    @apply  relative text-[12px] 2xl:text-[14px] font-bold font-inter bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent hover:bg-gradient-to-t hover:from-aqua hover:to-gray-500 transition-all  ease-in-out  
 }
 .nav_list>li::after{
     @apply bg-gradient-to-r from-aqua to-gray-600 shadow-[0_1px_18px_1px_aqua] ;

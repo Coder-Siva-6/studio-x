@@ -84,14 +84,14 @@ const [advantage,setAdvantage]=useState(advantage_list)
 
 
 
-    <div className='  bg-black '   >
+    <div className='  bg-black container mx-auto '   >
     
     <div className='flex  flex-col gap-5 md:gap-30 '>
 
    
 
-        <div className='mt-5 md:mt-20 p-5 mx-2 md:mx-50 flex flex-col items-center shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]  gap-5   bg-gradient-to-b from-gray-950 to- '>
-            <p className='md:mx-50 text-center para md:max-w-[1150px]  '> 
+        <div className='mt-5 md:mt-20 p-5 mx-2 md:mx-[10%] flex flex-col items-center shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]  gap-5   bg-gradient-to-b from-gray-950 to- '>
+            <p className='md:mx-[2%]  text-center para md:max-w-[1150px]  '> 
              A picture is worth thousand words they say, but we feel wedding photographs are more than that. For the amount of love, joy, promise, dreams and memories they carry within, it is an endless journey of emotions that the couple gets to experience on the big day.we make sure not a moment is missed when you are in the flow of the occasion.
               View gallery
            </p>
@@ -101,13 +101,13 @@ const [advantage,setAdvantage]=useState(advantage_list)
 {/* ...............................................................video with paragraph Wedding Flims .............................................................................*/}
 
      <div data-aos="fade-up"   data-aos-duration="1000"        className='container mx-auto  '>
-        <div className='flex flex-col md:flex-row gap-10 md:gap-20  md:mx-2 p-10  rounded-ee-2xl bg-gradient-to-br from-gray-900 to-'>
-            <video controls  src={video1} className='w-200 h-auto rounded-[5px] '></video>
+        <div className='flex flex-col md:flex-row gap-10 lg:gap-15 2xl:gap-20  md:mx-2 p-10  rounded-ee-2xl bg-gradient-to-br from-gray-900 to-'>
+            <video controls  src={video1} className='lg:w-150 2xl:w-200 h-auto rounded-[5px] '></video>
             <div className='flex flex-col self-center items-center md:items-start justify-start gap-5 '>
                 <h1 className='heading ' >WEDDING FILMS</h1>
                
-                <p className='para md:text-start text-center px-1 md:px-auto'>We love moving pictures as much as we love stills. With the cuts and callouts, every wedding film we make is a collage of all those memorable moments that you didn’t want to miss. More importantly, we take pleasure in giving you a wedding film that is a perfect accompaniment to our style of photography.</p>
-                 <button className='buttons  w-40 md:w-50'><Link to={'/films'}>WATCH</Link></button>
+                <p className='para md:text-start text-justify px-1 md:px-auto'>We love moving pictures as much as we love stills. With the cuts and callouts, every wedding film we make is a collage of all those memorable moments that you didn’t want to miss. More importantly, we take pleasure in giving you a wedding film that is a perfect accompaniment to our style of photography.</p>
+                 <button className='buttons  w-40 lg:w-35 2xl:w-50'><Link to={'/films'}>WATCH</Link></button>
             </div>
             </div>
             
@@ -117,7 +117,7 @@ const [advantage,setAdvantage]=useState(advantage_list)
 {/*..............................................................................................................................................................................................  */}
 
 
-<div     className=' mx-auto mt-5 md:mt-20 container '>
+<div     className=' mx-auto mt-5 lg:mt-10 2xl:mt-20 container '>
   <div  className='flex flex-col gap-5 md:flex-row md:gap-20 mx-10 justify-center '  data-aos="zoom-in" data-aos-duration="1000" >
     <h1 className='md:text-start text-center heading'>WHY STUDIO X ?</h1>
     <p className='md:text-start text-center para  '>
@@ -130,10 +130,10 @@ const [advantage,setAdvantage]=useState(advantage_list)
   </div>
 
   {/*....................................................................... advantages card ...........................................................................................................*/}
-  <div className='justify-center flex flex-col md:flex-row  mt-10 md:mt-20 ' data-aos="flip-left"
+  <div className='justify-center flex flex-col md:flex-row  mt-10 lg:mt-20  ' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
-    <div className=' w-100% md:w-[68%]  md:h-110 flex   overflow-hidden '>
+    <div className=' w-100% md:w-[78%] 2xl:w-[68%]   md:h-100 2xl:h-110 flex   overflow-hidden '>
       { advantage.map((adv,index)=>(
         <div  className=' ' key={index}>
           <div className='h-full w-[100vw] md:w-265 flex flex-col md:flex-row items-center md:gap-x-15 pt-10 md:pt-0  md:justify-between bg-gradient-to-br from-gray-900 t shadow-2xl shadow-gray-900 '>
@@ -161,24 +161,24 @@ const [advantage,setAdvantage]=useState(advantage_list)
   {/* ....................................................................................................end.......................................................................... */}
 
   {/*..................................................................... Other Services .....................................................................*/}
-  <div className='mt-15 md:mt-30 flex place-content-center mx-auto container ' data-aos="fade-up"
+  <div className='mt-15 md:mt-20 2xl:mt-30 flex place-content-center mx-auto container ' data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000">
     <h1 className='heading'>OTHER SERVICES</h1>
   </div>
 
 
-  <div className=' mt-5 md:mt-20  mx-10 '> 
+  <div className=' mt-5  md:mt-15 2xl:mt-20  mx-10 md:mx-30 '> 
     {/*..................................................................... cards ..................................................................... */}
-    <div className='flex flex-col md:flex-row  md:justify-around items-center gap-10 md:gap-20 '  data-aos="fade-up"
+    <div className='flex flex-col md:flex-row  md:justify-around items-center gap-10 2xl:gap-20'  data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
     {
       other_Services.map((item,index)=>(
-        <div key={index} className='flex flex-col justify-between items-center border-2 transition-all ease-in-out border-aqua md:border-black md:hover:border-aqua rounded-[2px] md:h-150' >
-          <div className='p-7'>
+        <div key={index} className='flex flex-col justify-between items-center  border-[1px] 2xl:border-2 transition-all ease-in-out border-aqua md:border-black md:hover:border-aqua rounded-[2px] md:h-120 2xl:h-150' >
+          <div className='p-7 md:p-5'>
             <img className='rounded-[2px]' src={item.image} alt="" />
              </div>
           <div className='gap-1 flex flex-col place-items-center '>
-            <h1 className='font-roboto text-3xl heading'>{item.head}</h1>
+            <h1 className='font-roboto text-2xl heading'>{item.head}</h1>
             <p className='para text-center px-12'>{item.body}</p>
           </div>
           <div className='flex items-center p-10 '>

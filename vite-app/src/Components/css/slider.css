@@ -3,10 +3,10 @@
 
 
 .main_Container{
-    @apply  flex flex-col md:items-center 
+    @apply  flex flex-col md:items-center  
 }
 .main_child_container{
-    @apply w-[70%] h-[93vh] md:h-190  relative 
+    @apply w-[75%] 2xl:w-[80%]  h-[93vh] md:h-[85vh]  relative 
 }
  .main_list{
     @apply absolute w-[100%] h-[100%] ;
@@ -16,7 +16,7 @@
 
 
 .main_child_items{
-@apply   absolute   md:left-[46%] md:top-[60%] md:w-[130px] h-[190px] ;
+@apply   absolute  md:left-[47%] md:top-[60%] md:w-[130px] h-[190px] ;
 
 
 border-radius: 15px;
@@ -80,7 +80,7 @@ top:70%;
 
 
  .secondary_list{
-    @apply absolute w-[100vw] backdrop-blur-[3px] md:backdrop-blur-[0.5px] md:w-145 md:h-70  h-80 bottom-2 md:-bottom-1 md:left-[29%] md:rounded-4xl overflow-hidden ; 
+    @apply  absolute w-[100vw] backdrop-blur-[3px] md:backdrop-blur-[0.5px] md:w-[65%] md:h-[60%]   2xl:h-[47%]  h-80 bottom-0 md:-bottom-1 md:left-[50%] translate-x-[-50%] md:rounded-4xl overflow-hidden ; 
   z-index:1001;
 } 
 
@@ -89,6 +89,7 @@ top:70%;
      filter: blur(0.2px);
     width: 20%;
     right: 0;
+    bottom: 0;
     border-radius: 15px;
     background-position: 70% 50%;
     background-size: cover ;

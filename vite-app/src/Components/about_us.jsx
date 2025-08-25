@@ -41,7 +41,7 @@ const about_us = () => {
 
 
 
-    <div className='mx-auto ' >
+    <div className='mx-auto container' >
 
         <div className='bg-black pb-50 flex flex-col  '>
            
@@ -50,11 +50,11 @@ const about_us = () => {
              {/* About Us */}
         <div className='  '>
        {/*................camera card......................  */}
-       <div className='flex flex-col md:flex-row items-center md:items-start mx-5 justify-between md:mx-42   gap-5 md:mt-10 mt-15 md:mt-30   md:p-10 rounded-4xl' data-aos="fade-up"
+       <div className='flex flex-col md:flex-row items-center md:items-start mx-5 justify-between 2xl:mx-42   gap-5 md:mt-10 mt-15    md:p-10 rounded-4xl' data-aos="fade-up"
      data-aos-duration="1000"   >
         <div className='md:w-1/2 flex flex-col justify-start mt-15' >
         <h1 className='heading text-center md:text-start '>CAPTURING MOMENTS WITH PRECISION</h1>
-        <p className='para text-center md:text-start  md:leading-loose mt-3 md:mt-10 '>Our photography isn’t just about clicking a button — it’s about capturing emotions, expressions, and memories that last a lifetime. From intimate couple portraits to grand family celebrations, we ensure every frame is composed with care.
+        <p className='para text-center md:text-justify md:leading-loose mt-3 md:mt-10 '>Our photography isn’t just about clicking a button — it’s about capturing emotions, expressions, and memories that last a lifetime. From intimate couple portraits to grand family celebrations, we ensure every frame is composed with care.
 
         Equipped with the latest DSLR technology and years of creative experience, our photographers know how to find the right light, the perfect angle, and the real emotion. Whether it's a traditional ceremony or a modern celebration, we promise timeless photos that speak louder than words.
          </p>
@@ -66,14 +66,14 @@ const about_us = () => {
        </div>
         {/* .........................videography card................... */}
 
-       <div className='flex  flex-col-reverse md:flex-row  justify-between mx-5 md:mx-42 md:mt-10 mt-15  gap-5     rounded-4xl' data-aos="fade-up"
+       <div className='flex  flex-col-reverse md:flex-row  justify-between mx-5 2xl:mx-42 md:mt-5  mt-15  gap-5     rounded-4xl' data-aos="fade-up"
      data-aos-duration="1000"  >
         <div className='flex justify-center'>
             <img className=' w-80 md:w-130  ' src={vcam} alt="" />
         </div> 
         <div className='md:w-1/2 flex flex-col justify-start mt-15' >
         <h1 className='heading text-center md:text-start '>OUR STORY IN MOTION</h1>
-        <p className='para text-center md:text-start leading-loose mt-3 md:mt-10 '> Every love story, every event, every moment deserves to be remembered in motion. Our videography team crafts beautiful, cinematic films that go beyond documentation — we tell stories through our lens.
+        <p className='para text-center md:text-justify leading-loose mt-3 md:mt-10 '> Every love story, every event, every moment deserves to be remembered in motion. Our videography team crafts beautiful, cinematic films that go beyond documentation — we tell stories through our lens.
 
 Using industry-leading equipment and advanced editing techniques, we capture everything from laughter and tears to the tiniest details that make your day unique. From pre-wedding shoots to full-event highlights, our videos are designed to move hearts and preserve memories forever.
 
@@ -81,11 +81,11 @@ Using industry-leading equipment and advanced editing techniques, we capture eve
          </div>
        </div>
 {/* ............... drone card............... */}
-   <div className='flex  flex-col md:flex-row  justify-between md:mx-42 mx-5  gap-5 md:mt-10 mt-15  md:p-25 rounded-4xl' data-aos="fade-up"
+   <div className='flex  flex-col md:flex-row  justify-between 2xl:mx-42 mx-5  gap-10 md:mt-5 2xl:mt-10 mt-15  md:p-25 rounded-4xl' data-aos="fade-up"
      data-aos-duration="1000"   >
         <div className='md:w-1/2 flex flex-col justify-start mt-15' >
         <h1 className='heading text-center md:text-start '>A NEW PERSPECTIVE FROM ABOVE</h1>
-        <p className='para text-center md:text-start leading-loose mt-3 md:mt-10 '>Some moments deserve to be seen from the skies. Our aerial drone services offer breathtaking views that elevate your story to cinematic heights. With smooth 4K footage and precise flying, we capture scenes that add scale, beauty, and drama to any event or shoot.
+        <p className='para text-center md:text-justify leading-loose mt-3 md:mt-10 '>Some moments deserve to be seen from the skies. Our aerial drone services offer breathtaking views that elevate your story to cinematic heights. With smooth 4K footage and precise flying, we capture scenes that add scale, beauty, and drama to any event or shoot.
 
 From soaring views of wedding mandaps to panoramic estate shoots, our drone captures wide perspectives that ground photography simply can’t. Whether it’s for cinematic value, location coverage, or pure visual beauty — the sky is no longer the limit.
  </p>

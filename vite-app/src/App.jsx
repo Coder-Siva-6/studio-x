@@ -20,7 +20,8 @@ function App() {
 
   return (
     <>
-      <div className='bg-black flex  flex-col  '>
+    <div className=' bg-black '>
+      <div className=' flex  flex-col  mx-auto container  '>
         <BrowserRouter>
 
           <Navbar />
@@ -37,6 +38,7 @@ function App() {
 
         </BrowserRouter>
 
+      </div>
       </div>
     </>
   )
